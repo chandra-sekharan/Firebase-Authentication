@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+.signup{
+    width: 400px;
+    background-color: rgba(0, 0, 0, 0.432);
+    height: 500px;
+    margin-left: 500px;
+    margin-top: 80px;
+    border-radius: 12px;
+    box-shadow: 2px 4px 6px;
+    align-items: center;
+}
+.signup h1 {
+    text-align: center;
+    line-height: 80px;
+}
+.signup form {
+    width: 400px;
+    height: 300px;
+}
+.signup form input[type="email"]{
+    width: 230px;
+    height: 28px;
+    padding: 3px 15px;
+    margin-left: 65px;
+    margin-top:20px;
+    border-radius: 8px;
+    border: 1px solid;
+    outline: none;
+}
+.signup form input[type="password"]{
+    width: 230px;
+    height: 25px;
+    padding: 3px 15px;
+    margin-left: 65px;
+    margin-top:28px;
+    border-radius: 8px;
+    border: 1px solid;
+    outline: none;
+
+}
+.signup form button{
+    width: 70px;
+    height: 35px;
+    padding: 3px 10px;
+    margin-left: 155px;
+    margin-top:25px;
+    border-radius: 8px;
+    background-color: gold;
+    border: none;
+    box-shadow: 1px 4px 7px;
+    font-size: 13px;
+    font-weight: bold;
+}
+.signup form button:hover{
+    background-color: rgb(146, 126, 11);
+}
+.signup  .google-sign{
+    align-items: center;
+    margin-left: 80px;
+    margin-top: -2px;
+}
+.signup  label{
+    line-height: 60px;
+    text-align: center;
+    margin-left: 100px;
+    font-size: 18px;
+}
+.signup form label{
+    text-align: center;
+    margin-left: 220px;
+    font-size: 18px;
+}
+#hyperlink{
+    font-size: 18px;
+}
+.forgot {
+    background-color: rgba(0, 0, 0, 0.719);
+    height: 100vh;
+    align-items: center;
+}
+.forgot form {
+    height: 100px;
+    width: 600px;
+    position: relative;
+    left: 30%;
+    top: 40%;
+}
+.forgot form input[type="email"]{
+    width: 400px;
+    padding: 10px 15px;
+}
+.forgot form button {
+    background-color:rgb(0, 60, 255);
+    color: white;
+    border: 1px solid white;
+    padding: 10px;
+}
+.main h1{
+    text-align: center;
+    line-height: 60px;
+    letter-spacing: 4px;
+    
+}
+.main button {
+   width: 70px;
+   float: right;
+   margin-right: 60px;
+   margin-top: -50px;
+   padding: 10px 4px;
+   color: white;
+   background-color:rgb(25, 60, 255);
+   border: none;
+   border-radius: 8px ;
+   box-shadow: 1px 3px 3px black;
+}
+.main button:hover{
+    background-color: rgb(4, 42, 146);
+}
+.forms form  input[type="text"]{
+    width: 300px;
+    height: 20px;
+    padding: 5px 10px;
+    margin-left: 520px;
+    margin-top: 60px;
+}
+.forms form button {
+    width: 70px;
+    float: right;
+    margin-right: 650px;
+    margin-top: 50px;
+    padding: 10px 4px;
+    color: white;
+    background-color:rgb(25, 60, 255);
+    border: none;
+    border-radius: 8px ;
+    box-shadow: 1px 3px 3px black;
+ }
+ .forms form button:hover{
+     background-color: rgb(4, 42, 146);
+ }
+ .fetchbg {
+    width: 400px;
+    height: auto;
+    margin-left: 480px;
+    margin-top: 100px;
+    background-color: grey;
+ }
+ .fetch{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+ }
